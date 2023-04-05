@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Noto_Sans";
+    src: url(//assets/fonts/Noto_Sans/NotoSans-Bold.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,17 +14,29 @@
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    background-color: greenyellow;;
 }
 
 header {
     width: 100%;
     height: 120px;
-    background-color: aqua;
+    background-image: linear-gradient(to right, rgb(187, 10, 187), rgb(79, 79, 255));
 }
 
 header .header-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+main {
+    background-image: linear-gradient(to right, rgb(187, 10, 187), rgb(79, 79, 255));
+    width: 100%;
+    height: 1000px;
 }
