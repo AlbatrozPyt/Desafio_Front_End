@@ -173,12 +173,12 @@ main section .info {
     height: 100%;
 }
 main .info .topicos {
-    width: 500px;
-    border: red 2px solid;
+    width: 250px;
 }
 
-
 main section .info  img {
+    position: relative;
+    bottom: 20px;
     width: 50px;
     height: 50px;
 }
