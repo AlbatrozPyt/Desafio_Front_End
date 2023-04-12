@@ -4,6 +4,11 @@
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
 }
 
+@font-face {
+    font-family: "Quicksand";
+    src: url(/assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
 /* RESET */
 * {
     margin: 0;
@@ -92,6 +97,7 @@ main {
     background-image: linear-gradient(to right, rgb(187, 10, 187), rgb(79, 79, 255));
 }
 
+/* SETAS */
 main .setas {
     position: relative;
     top: 400px;
@@ -117,6 +123,7 @@ main .setas span:focus {
     border: none;
 }
 
+/* Banner */
 main .banner {
     display: flex;
     align-items: center;
@@ -161,6 +168,7 @@ main article {
     justify-content: space-between;
 }
 
+/* INFO */
 main section {
     background-color: #FDF2FF;
     height: 300px;
@@ -170,6 +178,7 @@ main section .info {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 15px;;
     height: 100%;
 }
 main .info .topicos {
@@ -188,5 +197,28 @@ main section .info  h2 {
 }
 
 main section .info p {
-    width: 300px;
+    font-family: "Quicksand";
+    width: 228px;
+}
+
+/* LOJA */
+main .loja {
+    background-color: white;
+    height: 500px;
+}
+
+main .loja h3 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;;
+    text-transform: uppercase;
+}
+
+main .loja h1 {
+    font-family: Titillium_Web;
+    font-size: 50px;
+}
+
+main .loja p {
+    font-family: "Quicksand";
 }
