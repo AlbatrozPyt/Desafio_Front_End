@@ -203,22 +203,7 @@ main section .info p {
 
 /* LOJA */
 main .loja {
+    display: flex;
     background-color: white;
     height: 500px;
-}
-
-main .loja h3 {
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;;
-    text-transform: uppercase;
-}
-
-main .loja h1 {
-    font-family: Titillium_Web;
-    font-size: 50px;
-}
-
-main .loja p {
-    font-family: "Quicksand";
 }
