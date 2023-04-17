@@ -162,14 +162,23 @@ main .info {
     background-color: #f8ddfd;
 }
 
+main .info-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 main .info .task {
-    width: 350px;
-    position: relative;
+    width: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 main .info .task .topico {
+    width: 350px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -183,7 +192,6 @@ main .info .task p {
     font-family: "Quicksand";
     font-size: 15px;
     color: rgba(0, 0, 0, .5);
-    width: 100%;
-    padding-left: 125px;
+    width: 215px;
 }
 /* Cor dos icones: #b17cb8 */
