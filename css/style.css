@@ -194,4 +194,93 @@ main .info .task p {
     color: rgba(0, 0, 0, .5);
     width: 215px;
 }
-/* Cor dos icones: #b17cb8 */
+
+/* loja */
+main .loja {
+    background-color: white;
+    height: 1000px;
+}
+
+main .loja .loja-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .loja .loja-flex .tit-loja {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .loja .loja-flex .tit-loja h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+}
+
+main .loja .loja-flex .tit-loja h1 {
+    font-family: "Poppins";
+    font-size: 60px;
+    color: black;
+}
+
+main .loja .loja-flex .tit-loja p {
+    font-family: "Quicksand";
+    font-size: 15px;
+    color: rgba(0, 0, 0, .5);
+    width: 600px;
+    text-align: center;
+}
+
+main .loja .loja-flex .produtos {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .loja .loja-flex .produtos .produto {
+    width: 220px;
+    height: 335px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .loja .loja-flex .produto:hover {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, .1);
+}
+
+main .loja .loja-flex .produtos .produto img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 35px;
+}
+
+main .loja .loja-flex .produto p {
+    font-family: "Quicksand";
+    font-size: 15px;
+    color: rgba(0, 0, 0, .5);
+    text-align: none;
+}
+
+main .loja .loja-flex .produtos .produto a {
+    font-family: "Quicksand";
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+}
+
+/* Variedades */
+main .variedades {
+    background-color: #f8ddfd;
+    height: 1000px;
+}
