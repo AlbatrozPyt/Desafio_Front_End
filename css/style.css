@@ -347,6 +347,7 @@ main .variedades .variedades-flex .outros-produtos button {
     outline: none
 }
 
+/* Mais-Produtos-1 */
 main .variedades .variedades-flex .outros-produtos .mais-produtos-1 {
     border: cyan 2px solid;
     display: flex;
@@ -360,13 +361,21 @@ main .variedades .variedades-flex .outros-produtos .mais-produtos-1 {
     background-size: cover;
 }
 
+/* Mais-Produtos-2 */
 main .variedades .variedades-flex .outros-produtos .mais-produtos-2 {
     border: purple 2px solid;
     width: 350px;
     height: 180px;
+    padding-left: 20px;
+    padding-top: 20px;
     background-image: url(../assets/images/iphone-gold.png);
 }
 
+main .variedades .variedades-flex .outros-produtos .mais-produtos-2 h3 {
+    width: 120px;;
+}
+
+/* Mais-Produtos */
 main .variedades .variedades-flex .outros-produtos .mais-produtos-3 {
     border: teal 2px solid;
 }
