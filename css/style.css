@@ -320,14 +320,51 @@ main .variedades .variedades-flex .tit-variedades h1 {
 main .variedades .variedades-flex .outros-produtos {
     border: mediumblue 2px solid;
     width: 100%;
+    display: flex;
 } 
+
+main .variedades .variedades-flex .outros-produtos h3 {
+    font-family: "Poppins";
+}
+
+main .variedades .variedades-flex .outros-produtos p {
+    font-family: "Quicksand";
+    font-size: 15px;
+    color: rgba(0, 0, 0, .5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main .variedades .variedades-flex .outros-produtos button {
+    font-family: "Quicksand";
+    font-weight: bold;
+    color: #CA69E0;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: #CA69E0 2px solid;
+    outline: none
+}
 
 main .variedades .variedades-flex .outros-produtos .mais-produtos-1 {
     border: cyan 2px solid;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 350px;
+    height: 370px;
+    background-image: url(../assets/images/iphones.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main .variedades .variedades-flex .outros-produtos .mais-produtos-2 {
     border: purple 2px solid;
+    width: 350px;
+    height: 180px;
+    background-image: url(../assets/images/iphone-gold.png);
 }
 
 main .variedades .variedades-flex .outros-produtos .mais-produtos-3 {
