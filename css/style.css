@@ -286,7 +286,6 @@ main .variedades {
 }
 
 main .variedades .variedades-flex {
-    border: orange 2px solid;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -294,7 +293,6 @@ main .variedades .variedades-flex {
 }
 
 main .variedades .variedades-flex .tit-variedades {
-    border: green 2px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
