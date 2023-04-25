@@ -282,7 +282,7 @@ main .loja .loja-flex .produtos .produto a {
 /* Variedades */
 main .variedades {
     background-color: #f8ddfd;
-    height: 1000px;
+    height: 850px;
 }
 
 main .variedades .variedades-flex {
@@ -395,4 +395,94 @@ main .variedades .variedades-flex .outros-produtos .mais-produtos-4 {
     background-image: url(../assets/images/notebooks.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* Aparelhos */
+
+main .aparelhos {
+    background-color: white;
+    height: 1000px;
+}
+
+main .aparelhos .aparelhos-flex .tit-aparelhos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+
+main .aparelhos .aparelhos-flex .tit-aparelhos h1 {
+    font-family: "Poppins";
+    font-size: 45px;
+    color: black; 
+}
+
+main .aparelhos .aparelhos-flex .tit-aparelhos nav {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .aparelhos .aparelhos-flex .tit-aparelhos nav a {
+    font-family: "Quicksand";
+    font-size: 15px;
+    color: rgba(0, 0, 0, .5);
+    text-decoration: none;
+}
+
+main .aparelhos .aparelhos-flex .tit-aparelhos nav a:hover {
+    border-bottom: 4px groove #CA69E0;
+}
+
+/* Loja Aparelhos */
+main .aparelhos .aparelhos-flex .loja-aparelhos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+main .aparelhos .aparelhos-flex .loja-aparelhos .aparelho{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 370px;
+    box-shadow: 14px 20px 20px rgba(0, 0, 0, .1);
+}
+
+main .aparelhos .aparelhos-flex .loja-aparelhos .aparelho:hover {
+    
+}
+
+/* Imagem do Aparelho */
+main .aparelhos .aparelhos-flex .aparelho .ap  {
+    height: 150px;
+}
+
+main .aparelhos .aparelhos-flex .aparelho h3 {
+    font-family: "Poppins";
+    width: 140px;
+}
+
+main .aparelhos .aparelhos-flex .aparelho p {
+    font-family: "Quicksand";
+    font-weight: bold;
+    text-align: left;
+    width: 140px;
+    padding-bottom: 15px;
+}
+
+/* Icone de Carrinho */
+main .aparelhos .aparelhos-flex .aparelho .cart {
+    width: 50px;
+    height: 45px;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    border: #CA69E0 2px solid;
 }
