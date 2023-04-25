@@ -318,9 +318,11 @@ main .variedades .variedades-flex .tit-variedades h1 {
 
 /* Outros Produtos */
 main .variedades .variedades-flex .outros-produtos {
-    border: mediumblue 2px solid;
+    position: relative;
     width: 100%;
+    height: 430px;
     display: flex;
+    justify-content: space-evenly;
 } 
 
 main .variedades .variedades-flex .outros-produtos h3 {
@@ -349,13 +351,12 @@ main .variedades .variedades-flex .outros-produtos button {
 
 /* Mais-Produtos-1 */
 main .variedades .variedades-flex .outros-produtos .mais-produtos-1 {
-    border: cyan 2px solid;
     display: flex;
     flex-direction: column;
     padding-left: 20px;
     padding-top: 20px;
     width: 350px;
-    height: 370px;
+    height: 100%;
     background-image: url(../assets/images/iphones.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -363,7 +364,6 @@ main .variedades .variedades-flex .outros-produtos .mais-produtos-1 {
 
 /* Mais-Produtos-2 */
 main .variedades .variedades-flex .outros-produtos .mais-produtos-2 {
-    border: purple 2px solid;
     width: 350px;
     height: 180px;
     padding-left: 20px;
@@ -377,9 +377,24 @@ main .variedades .variedades-flex .outros-produtos .mais-produtos-2 h3 {
 
 /* Mais-Produtos */
 main .variedades .variedades-flex .outros-produtos .mais-produtos-3 {
-    border: teal 2px solid;
+    width: 350px;
+    height: 180px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-image: url(../assets/images/smartwatch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main .variedades .variedades-flex .outros-produtos .mais-produtos-4 {
-    border: springgreen 2px solid;
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+    width: 735px;
+    height: 180px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-image: url(../assets/images/notebooks.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
