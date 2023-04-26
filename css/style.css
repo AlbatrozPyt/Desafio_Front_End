@@ -98,16 +98,6 @@ header .icones .border-icons:hover {
 
 /* Main */
 
-/* SETAS */
-main .setas {
-    position: absolute;
-    top: calc(1000px/2);
-    display: flex;
-    justify-content: space-between;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
 /* Banner */
 main .banner {
     background-image: url(../assets/images/Background-Banner.png);
@@ -401,7 +391,7 @@ main .variedades .variedades-flex .outros-produtos .mais-produtos-4 {
 
 main .aparelhos {
     background-color: white;
-    height: 1000px;
+    height: 500px;
 }
 
 main .aparelhos .aparelhos-flex .tit-aparelhos {
@@ -451,10 +441,11 @@ main .aparelhos .aparelhos-flex .loja-aparelhos .aparelho{
     width: 250px;
     height: 370px;
     box-shadow: 14px 20px 20px rgba(0, 0, 0, .1);
+    transition: box-shadow 0.5s;
 }
 
 main .aparelhos .aparelhos-flex .loja-aparelhos .aparelho:hover {
-    
+    box-shadow:  -20px 20px 30px;
 }
 
 /* Imagem do Aparelho */
@@ -485,4 +476,36 @@ main .aparelhos .aparelhos-flex .aparelho .cart {
     padding: 5px;
     border-radius: 50%;
     border: #CA69E0 2px solid;
+}
+
+main .aparelhos .setas {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 60px;
+}
+
+main .aparelhos .setas .seta-r {
+    position: absolute;
+    top: -100px;
+    border: #CA69E0 2px solid;
+    width: 50px;
+    height: 30px;
+    border-radius: 25px;
+    margin-right: 100px;
+    padding: 5px;
+}
+
+main .aparelhos .setas .seta-l {
+    position: absolute;
+    top: -100px;
+    border: #CA69E0 2px solid;
+    width: 50px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 100px;
+    padding: 5px;
+
 }
