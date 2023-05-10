@@ -520,6 +520,9 @@ main .aparelhos .setas .seta-l:hover {
 
 /* Parte do fone em promocao */
 main .promo-fones {
-    background-color: #f8ddfd;
-    height:  500px;
+    background-image: url(../assets/images/fones-headset-promo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height:  1000px;
 }
