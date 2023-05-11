@@ -526,3 +526,13 @@ main .promo-fones {
 
     height:  1000px;
 }
+
+main .promo-fones .promo-fones-flex .inp {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+}
+
+main .prommo-fones .promo-fones-flex input[type="range" i] {
+    width: 100px;
+}
