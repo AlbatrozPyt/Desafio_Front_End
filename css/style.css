@@ -117,7 +117,7 @@ main .banner .banner-flex .tit {
     position: absolute;
     right: 0;
     width: 370px;
-} 
+}
 
 main .banner .banner-flex h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -140,7 +140,7 @@ main .banner .banner-flex button {
     width: 150px;
     height: 50px;
     border-radius: 50px;
-    background-color:#ffc300;
+    background-color: #ffc300;
     color: white;
     border: none;
     outline: none;
@@ -205,7 +205,7 @@ main .loja .loja-flex .tit-loja {
     align-items: center;
 }
 
-main .loja .loja-flex .tit-loja h2{
+main .loja .loja-flex .tit-loja h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     text-transform: uppercase;
@@ -266,7 +266,7 @@ main .loja .loja-flex .produtos .produto a {
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 /* Variedades */
@@ -301,7 +301,7 @@ main .variedades .variedades-flex .tit-variedades h2 {
 main .variedades .variedades-flex .tit-variedades h1 {
     font-family: "Poppins";
     font-size: 60px;
-    color: black;   
+    color: black;
 }
 
 /* Outros Produtos */
@@ -311,7 +311,7 @@ main .variedades .variedades-flex .outros-produtos {
     height: 430px;
     display: flex;
     justify-content: space-evenly;
-} 
+}
 
 main .variedades .variedades-flex .outros-produtos h3 {
     font-family: "Poppins";
@@ -360,7 +360,8 @@ main .variedades .variedades-flex .outros-produtos .mais-produtos-2 {
 }
 
 main .variedades .variedades-flex .outros-produtos .mais-produtos-2 h3 {
-    width: 120px;;
+    width: 120px;
+    ;
 }
 
 /* Mais-Produtos */
@@ -404,7 +405,7 @@ main .aparelhos .aparelhos-flex .tit-aparelhos {
 main .aparelhos .aparelhos-flex .tit-aparelhos h1 {
     font-family: "Poppins";
     font-size: 45px;
-    color: black; 
+    color: black;
 }
 
 main .aparelhos .aparelhos-flex .tit-aparelhos nav {
@@ -432,7 +433,7 @@ main .aparelhos .aparelhos-flex .loja-aparelhos {
     height: 415px;
 }
 
-main .aparelhos .aparelhos-flex .loja-aparelhos .aparelho{
+main .aparelhos .aparelhos-flex .loja-aparelhos .aparelho {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -445,11 +446,11 @@ main .aparelhos .aparelhos-flex .loja-aparelhos .aparelho{
 }
 
 main .aparelhos .aparelhos-flex .loja-aparelhos .aparelho:hover {
-    box-shadow:  -20px 20px 30px;
+    box-shadow: -20px 20px 30px;
 }
 
 /* Imagem do Aparelho */
-main .aparelhos .aparelhos-flex .aparelho .ap  {
+main .aparelhos .aparelhos-flex .aparelho .ap {
     height: 150px;
 }
 
@@ -479,12 +480,12 @@ main .aparelhos .aparelhos-flex .aparelho .cart {
 }
 
 main .aparelhos .setas {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
 }
 
 main .aparelhos .setas .seta-r {
@@ -500,7 +501,7 @@ main .aparelhos .setas .seta-r {
 
 main .aparelhos .setas .seta-r:hover {
     width: 100px;
- }
+}
 
 main .aparelhos .setas .seta-l {
     position: absolute;
@@ -515,7 +516,7 @@ main .aparelhos .setas .seta-l {
 }
 
 main .aparelhos .setas .seta-l:hover {
-   width: 100px;
+    width: 100px;
 }
 
 /* Parte do fone em promocao */
@@ -523,16 +524,15 @@ main .promo-fones {
     background-image: url(../assets/images/fones-headset-promo.png);
     background-repeat: no-repeat;
     background-size: cover;
-
-    height:  1000px;
+    height: 1000px;
 }
 
-main .promo-fones .promo-fones-flex .inp {
-    width: 100px;
-    height: 40px;
-    background-color: blue;
+main .promo-fones .promo-fones-flex .coluna-1 {
+    border: red 2px solid;
 }
 
-main .prommo-fones .promo-fones-flex input[type="range" i] {
+main .promo-fones .promo-fones-flex input[type="range" i] {
     width: 100px;
+    color: blue;
+    border: red 3px solid;
 }
