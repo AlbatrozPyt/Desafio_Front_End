@@ -521,18 +521,63 @@ main .aparelhos .setas .seta-l:hover {
 
 /* Parte do fone em promocao */
 main .promo-fones {
-    background-image: url(../assets/images/fones-headset-promo.png);
+    background-color: #f8ddfd;
     background-repeat: no-repeat;
     background-size: cover;
     height: 1000px;
 }
 
-main .promo-fones .promo-fones-flex .coluna-1 {
-    border: red 2px solid;
+main .promo-fones .promo-fones-flex {
+    border: darkviolet 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-main .promo-fones .promo-fones-flex input[type="range" i] {
-    width: 100px;
-    color: blue;
-    border: red 3px solid;
+main .promo-fones .promo-fones-flex .tit-promo-fones {
+    border: blue 2px solid;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .promo-fones .promo-fones-flex .coluna-1 {
+    border: red 2px solid;
+    width: 300px;
+    height: 345px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main .promo-fones .promo-fones-flex .coluna-1 nav {
+    border: seagreen 2px solid;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main .promo-fones .promo-fones-flex .coluna-1 nav a {
+    text-decoration: none;
+}
+
+main .promo-fones .promo-fones-flex img {
+    border: green 2px solid;
+    height: 500px;
+    width: 500px;
+}
+
+main .promo-fones .promo-fones-flex .coluna-2 {
+    border: red 2px solid;
+    height: 500px;
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
