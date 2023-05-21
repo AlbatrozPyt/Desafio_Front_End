@@ -581,6 +581,12 @@ main .promo-fones .promo-fones-flex .coluna-1 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    box-shadow: 14px 20px 20px rgba(0, 0, 0, .1);
+    transition: box-shadow 0.5s;
+}
+
+main .promo-fones .promo-fones-flex .coluna-1:hover {
+    box-shadow: -20px 20px 30px;
 }
 
 main .promo-fones .promo-fones-flex .coluna-1 h2 {
@@ -595,6 +601,7 @@ main .promo-fones .promo-fones-flex .coluna-1 nav {
     color: rgba(0, 0, 0, .5);
     text-decoration: none;
 }
+
 
 main .promo-fones .promo-fones-flex .coluna-1 nav {
     height: 215px;
@@ -689,4 +696,192 @@ main .promo-fones .promo-fones-flex .coluna-2 button {
 }
 
 /* Inovacoes */
+main .inovacoes {
+    background-color: white;
+    height: 700px;
+}
 
+main .inovacoes .inovacoes-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+main .inovacoes .inovacoes-flex .tit-inovacoes {
+    width: 100%;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main .inovacoes .inovacoes-flex .tit-inovacoes h2 {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+main .inovacoes .inovacoes-flex .tit-inovacoes h1 {
+    font: 40px Poppins;
+}
+
+main .inovacoes .inovacoes-flex .top-inovacoes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 350px;
+}
+
+main .inovacoes .inovacoes-flex .top-inovacoes .inova {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 14px 20px 20px rgba(0, 0, 0, .1);
+    transition: box-shadow 0.5s;
+}
+
+main .inovacoes .inovacoes-flex .top-inovacoes .inova:hover {
+    box-shadow: -20px 20px 30px;
+}
+
+main .inovacoes .inovacoes-flex .top-inovacoes .inova img {
+    height: 175px;
+    width: 100%;
+}
+
+main .inovacoes .inovacoes-flex .top-inovacoes .inova .tit-inova {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+main .inovacoes .inovacoes-flex .top-inovacoes .inova h2 {
+    font: 20px Poppins;
+    width: 220px;
+}
+
+main .inovacoes .inovacoes-flex .top-inovacoes .inova p {
+    font: 12px Quicksand;
+}
+
+main .inovacoes .setas {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+}
+
+main .inovacoes .setas .seta-r {
+    position: absolute;
+    border: #CA69E0 2px solid;
+    width: 50px;
+    height: 30px;
+    border-radius: 25px;
+    margin-right: 100px;
+    padding: 5px;
+    transition: width 1s;
+}
+
+main .inovacoes .setas .seta-r:hover {
+    width: 100px;
+}
+
+main .inovacoes .setas .seta-l {
+    position: absolute;
+    border: #CA69E0 2px solid;
+    width: 50px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 100px;
+    padding: 5px;
+    transition: width 1s;
+
+}
+
+main .inovacoes .setas .seta-l:hover {
+    width: 100px;
+}
+
+/* Subscribe  */
+main .subscribe {
+    height: 370px;
+    width: 100%;
+    background-image: url(../assets/images/background_subscribe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .subscribe .subscribe-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main .subscribe .subscribe-flex .tit-subscribe {
+    height: 200px;
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main .subscribe .subscribe-flex .tit-subscribe h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+main .subscribe .subscribe-flex .tit-subscribe h1 {
+    font: 35px Poppins;
+    color: white;
+}
+
+main .subscribe .subscribe-flex .tit-subscribe p {
+    font-family: Quicksand;
+    color: white;
+    width: 530px;
+}
+
+main .subscribe .subscribe-flex .escrever-email {
+    width: 450px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .subscribe .subscribe-flex .escrever-email input {
+    padding-left: 10px;
+    height: 100%;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+
+main .subscribe .subscribe-flex .escrever-email input::placeholder {
+    font-family: Quicksand;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .5);
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
+main .subscribe .subscribe-flex .escrever-email button {
+    background-color: #ffc300;
+    width: 125px;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
