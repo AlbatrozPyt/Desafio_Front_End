@@ -2,11 +2,11 @@
 
 /* Banner */
 main .banner {
-    background-image: url(../assets/images/Background-Banner.png);
+    background-image: url(../assets/images/background_banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 700px;
+    height: 1000px;
 }
 
 main .banner .banner-flex {
