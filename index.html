@@ -20,7 +20,7 @@
 
             <input type="search" placeholder="Search">
 
-            <nav>
+            <nav id="menu">
                 <a href="">Stores</a>
                 <a href="">Features</a>
                 <a href="">About</a>
@@ -36,7 +36,7 @@
                     <img src="assets/icons/shopping-cart.svg" alt="">
                 </div>
                 <div class="border-icons">
-                    <img src="assets/icons/menu-hamburguer.svg" alt="">
+                    <img onclick="mostrarMenu()" src="assets/icons/menu-hamburguer.svg" alt="">
                 </div>
             </div>
         </div>
@@ -426,6 +426,16 @@
                 <img src="assets/icons/mastercard.svg" alt="">
             </div>
     </footer>
+
+    <script>
+        function mostrarMenu() {
+            document.getElementById("menu").classList.toggle("mostrar-menu")
+        }
+
+        function mostrarMenu2() {
+            document.getElementById("menu-usuarios").classList.toggle("mostrar-menu-2")
+        }
+    </script>
 </body>
 
 </html>

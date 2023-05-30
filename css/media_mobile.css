@@ -1,4 +1,5 @@
 @media screen and (max-width: 768px) {
+
     /* HEADER */
     header .grid-layout {
         max-width: 768px;
@@ -21,16 +22,24 @@
     }
 
     header nav {
-        position: absolute;
-        top: 0;
-        left: 0;
+        position: fixed;
+        z-index: 99;
+        top: 75px;
+        left: 1000px;
         z-index: 100;
         background-image: linear-gradient(to right bottom, rgba(185, 12, 189, 0.7), rgba(104, 63, 239, .5));
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(7px);
         width: 300px;
         height: 500px;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transition: left 2s;
+    }
+
+    header .mostrar-menu {
+        left: 0 !important;
     }
 
     header .icones {
