@@ -120,15 +120,128 @@
     }
 
     main .variedades .variedades-flex {
+        flex-wrap: nowrap;
         flex-direction: column;
-    }
-
-    main .variedades .variedades-flex .tit-variedades {
-        border: red 2px solids;
+        justify-content: space-evenly;
     }
 
     main .variedades .variedades-flex .outros-produtos {
-        border: blue 2px solid;
+        position: static;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 1500px;
+    }
+
+    main .variedades .variedades-flex .outros-produtos .mais-produtos-1 {
+        height: 500px;
+        width: 300px;
+    }
+
+    main .variedades .variedades-flex .outros-produtos .mais-produtos-2 {
+        width: 300px;
+    }
+
+    main .variedades .variedades-flex .outros-produtos .mais-produtos-3 {
+        width: 300px;
+    }
+
+
+    main .variedades .variedades-flex .outros-produtos .mais-produtos-4 {
+        position: static;
+        background-image: url(../assets/images/notebook_mobile_variedades.png);
+        width: 300px;
+        height: 500px;
+    }
+
+    /* ==APARELHOS=== */
+    main .aparelhos {
+        height: 2000px;
+    }
+
+    main .aparelhos .aparelhos-flex {
+        flex-direction: column;
+       
+    }
+
+    main .aparelhos .aparelhos-flex .tit-aparelhos {
+        flex-direction: column;
+    }
+
+    main .aparelhos .aparelhos-flex .loja-aparelhos {
+        padding-top: 50px;
+        height: 1700px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    main .aparelhos .aparelhos-flex .tit-aparelhos h1 {
+        font-size: 30px;
+        padding-top: 45px;
+    }
+
+    main .aparelhos .aparelhos-flex .tit-aparelhos nav {
+        width: 335px;
+    }
+
+    main .aparelhos .setas {
+        display: none;
+    }
+
+    /* ==PROMO-FONE== */
+    main .promo-fones {
+        height: 1250px;
+    }
+
+    main .promo-fones .promo-fones-flex {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    main .promo-fones .promo-fones-flex .tit-promo-fones {
+        flex-direction: column;
+    }
+
+    main .promo-fones .promo-fones-flex .tit-promo-fones h1 {
+        font-size: 30px;
+    }
+
+    .promo-fones .promo-fones-flex img {
+        padding-top: 50px;
+    }
+
+    main .promo-fones .promo-fones-flex .coluna-1 {
+        display: none;
+    }
+
+    /* ==INOVACOES== */
+    main .inovacoes {
+        height: 1800px;
+    }
+
+    main .inovacoes .inovacoes-flex {
+        flex-direction: column;
+    }
+
+    main .inovacoes .inovacoes-flex .tit-inovacoes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .inovacoes .inovacoes-flex .top-inovacoes {
+        align-items: center;
+        flex-direction: column;
+        height: 1400px;
+    }
+
+    main .inovacoes .setas {
+        display: none;
+    }
+
+    /* ==SUBSCRIBE== */
+    main .subscribe .subscribe-flex{
+        flex-direction: column;
     }
 
 }
