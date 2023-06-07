@@ -117,7 +117,9 @@ main .loja .loja-flex .tit-loja h2 {
 main .loja .loja-flex .tit-loja h1 {
     font-family: "Poppins";
     font-size: 60px;
+    border-bottom: black 2px solid;
     color: black;
+    margin-bottom: 15px;
 }
 
 main .loja .loja-flex .tit-loja p {
@@ -206,6 +208,7 @@ main .variedades .variedades-flex .tit-variedades h1 {
     font-family: "Poppins";
     font-size: 60px;
     color: black;
+    border-bottom: black 2px solid;
 }
 
 /* Outros Produtos */
@@ -459,7 +462,7 @@ main .promo-fones {
     background-color: #f8ddfd;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1000px;
+    height: 750px;
 }
 
 main .promo-fones .promo-fones-flex {
@@ -475,6 +478,8 @@ main .promo-fones .promo-fones-flex .tit-promo-fones {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 5px;
+    border-bottom: black 2px solid;
 }
 
 main .promo-fones .promo-fones-flex .tit-promo-fones h1 {
@@ -631,10 +636,15 @@ main .inovacoes .inovacoes-flex .tit-inovacoes h2 {
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
+    padding-bottom: 5px;
+    width: fit-content;
+    border-bottom: black 2px solid;
 }
 
 main .inovacoes .inovacoes-flex .tit-inovacoes h1 {
     font: 40px Poppins;
+    padding-bottom: 5px;
+    border-bottom: black 2px solid;
 }
 
 main .inovacoes .inovacoes-flex .top-inovacoes {

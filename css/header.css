@@ -43,6 +43,10 @@ header nav a {
     color: white;
 }
 
+header nav a:hover {
+    border-bottom: rgb(187, 10, 187) 5px groove;
+}
+
 header .icones {
     display: flex;
     justify-content: space-between;
@@ -62,9 +66,11 @@ header .icones .border-icons {
     height: 50px;
     border: rgb(255, 255, 255, .5) 2px solid;
     border-radius: 50%;
+    transition: background-color 0.5s;
 }
 
 header .icones .border-icons:hover {
     background-color: rgb(183, 0, 255);
-    box-shadow: -2px 3px blueviolet;
+    box-shadow: -5px 7px blueviolet;
 }
+
