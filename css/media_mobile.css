@@ -206,6 +206,7 @@
     }
 
     main .promo-fones .promo-fones-flex .tit-promo-fones {
+        border: none;
         flex-direction: column;
     }
 

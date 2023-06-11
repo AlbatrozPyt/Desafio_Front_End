@@ -32,6 +32,9 @@ footer .footer-flex .links nav h2 {
     font-family: Quicksand;
     font-size: 20px;
     color: black;
+    width: fit-content;
+    padding-bottom: 2px;
+    border-bottom: black 2px solid;
 }
 
 footer .footer-flex .links nav a {

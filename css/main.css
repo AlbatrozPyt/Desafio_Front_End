@@ -112,6 +112,8 @@ main .loja .loja-flex .tit-loja h2 {
     font-size: 15px;
     text-transform: uppercase;
     color: black;
+    padding-bottom: 2px;
+    border-bottom: #CA69E0 2px solid;
 }
 
 main .loja .loja-flex .tit-loja h1 {
@@ -202,6 +204,8 @@ main .variedades .variedades-flex .tit-variedades h2 {
     font-size: 15px;
     text-transform: uppercase;
     color: black;
+    padding-bottom: 2px;
+    border-bottom: #CA69E0 2px solid;
 }
 
 main .variedades .variedades-flex .tit-variedades h1 {
@@ -344,6 +348,8 @@ main .aparelhos .aparelhos-flex .tit-aparelhos h1 {
     font-family: "Poppins";
     font-size: 45px;
     color: black;
+    width: fit-content;
+    border-bottom: black 2px solid;
 }
 
 main .aparelhos .aparelhos-flex .tit-aparelhos nav {
@@ -638,12 +644,13 @@ main .inovacoes .inovacoes-flex .tit-inovacoes h2 {
     font-size: 15px;
     padding-bottom: 5px;
     width: fit-content;
-    border-bottom: black 2px solid;
+    border-bottom: #CA69E0 2px solid;
 }
 
 main .inovacoes .inovacoes-flex .tit-inovacoes h1 {
     font: 40px Poppins;
     padding-bottom: 5px;
+    width: fit-content;
     border-bottom: black 2px solid;
 }
 
@@ -754,8 +761,11 @@ main .subscribe .subscribe-flex .tit-subscribe {
 main .subscribe .subscribe-flex .tit-subscribe h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
+    padding-bottom: 2px;
     text-transform: uppercase;
     color: white;
+    width: fit-content;
+    border-bottom: #CA69E0 2px solid;
 }
 
 main .subscribe .subscribe-flex .tit-subscribe h1 {
